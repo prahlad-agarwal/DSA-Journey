@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1">Power of 2</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-lightgreen' alt='Difficulty: Easy' /><hr>
+<h2><a href="https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1">Power of 2</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr>
 
 <p>Given a non-negative integer <code>n</code>, return true if it is a power of <code>2</code>. Otherwise, return <code>false</code>.</p>
 
