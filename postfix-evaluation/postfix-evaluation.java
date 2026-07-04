@@ -18,21 +18,14 @@ class Solution {
                 int operand1 = s.pop();
                 int operand2 = s.pop();
                 
-                if(arr[i].equals("*")) {
-                    s.push(operand2 * operand1);
-                } else if(arr[i].equals("+")) {
-                    s.push(operand2 + operand1);
-                } else if(arr[i].equals("-")) {
-                    s.push(operand2 - operand1);
-                } else if(arr[i].equals("/")) {
-                    s.push(floorDiv(operand2, operand1));
-                } else if(arr[i].equals("^")) {
-                    s.push((int)Math.pow(operand2, operand1));
-                }
+                if(arr[i].equals("*")) s.push(operand2 * operand1);
+                else if(arr[i].equals("+")) s.push(operand2 + operand1);
+                else if(arr[i].equals("-")) s.push(operand2 - operand1);
+                else if(arr[i].equals("/")) s.push(floorDiv(operand2, operand1));
+                else if(arr[i].equals("^")) s.push((int)Math.pow(operand2, operand1));
             }
         }
         
         return s.peek();
-        
     }
 }
