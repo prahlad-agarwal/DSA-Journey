@@ -10,7 +10,7 @@
 <strong>Input:</strong> V = 4, E = 4, edges[][] = [[0, 1], [0, 2], [1, 2], [2, 3]]
 <strong>Output:</strong> true
 <strong>Explanation:</strong>
-<img src="hhttps://media.geeksforgeeks.org/img-practice/prod/addEditProblem/891735/Web/Other/blobid1_1743510240.jpg" />
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/891735/Web/Other/blobid1_1743510240.jpg" />
 1 -> 2 -> 0 -> 1 is a cycle.
 </pre>
 
